@@ -1,0 +1,27 @@
+h3 {
+    color: white;
+}
+
+.choicesBtn, .nextBtn {
+    background-color: #a94d77;
+    border: none;
+    border-radius: 15px !important;
+    transition: ease-in-out .25s;
+    outline: none!important;
+}
+
+.nextBtn:hover {
+    background-color: #a94d77;
+}
+
+.choicesBtn:hover {
+    background-color: #fa7c86 !important;
+}
+
+.choicesBtn:focus {
+    background: #fa7c86 !important;
+}
+
+.choicesBtn:active {
+    background: #fa7c86 !important;
+}

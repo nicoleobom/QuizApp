@@ -1,0 +1,36 @@
+.iconsBtn {
+    border: none;
+    border-radius: 25px !important;
+    padding: 5px 10px;
+    background-color: #a94d77;
+    transition: ease-in-out .25s;
+    margin-left: 30px;
+}
+
+.iconsBtn:hover {
+    background-color: #fa7c86;
+}
+
+.iconsBtn:active {
+    background-color: #fa7c86;
+}
+
+.iconsBtn:focus {
+    background-color: #fa7c86;
+}
+
+.icons {
+    padding: 0;
+    color: white;
+}
+
+nav {
+    background-color: rgba(60,50,81, .8);
+}
+
+body {
+    background-image: url('https://media.giphy.com/media/BHNfhgU63qrks/source.gif');
+    background-size: cover;
+    font-family: 'Mulish', sans-serif;
+}
+

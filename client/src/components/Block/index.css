@@ -1,0 +1,12 @@
+.m-3 {
+    background-color: rgba(60,50,81, 0.8);
+    border: none;
+    border-radius: 70px;
+    margin: auto !important;
+}
+
+h2 {
+    font-family: 'RoyalAcidOutline';
+    font-size: 50px;
+    transition: ease-in-out .25s;
+}

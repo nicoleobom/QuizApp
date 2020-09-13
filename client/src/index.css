@@ -1,0 +1,95 @@
+
+@font-face {
+  font-family: 'RoyalAcidOutline';
+  src: url('./assets/fonts/Royalacidoutline.ttf')
+}
+
+body {
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.py-2 {
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Home */
+.marginAuto {
+  margin: auto;
+}
+
+.my-auto {
+  align-content: center;
+}
+/* Sign in jumbotron */
+.jumbo {
+  background-color: rgba(60,50,81, 0.8);
+  text-align: center;
+}
+
+.signUp {
+  color: white!important;
+  font-size: 12px;
+}
+
+.signUpLink {
+  color: white;
+  text-decoration: underline;
+}
+
+.signUpLink:hover {
+  color: white!important;
+}
+
+h1 {
+  font-family: 'RoyalAcidOutline';
+  color: white;
+}
+
+.signin {
+  max-width: 50%;
+}
+
+.inputsize {
+  max-width: 75%;
+  margin: auto;
+}
+
+.quizBtn {
+  background-color: #a94d77;
+  border: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  transition: ease-in-out .25s;
+}
+
+.quizBtn:hover {
+  background-color: #fa7c86;
+}
+
+p {
+  color: white;
+}
+
+.quizBtn {
+  color: white !important;
+}
+
+.center {
+  max-width: 50%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .signin {
+    max-width: 100%;
+  }
+}
