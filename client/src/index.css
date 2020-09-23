@@ -54,6 +54,11 @@ h1 {
 
 .signin {
   max-width: 50%;
+  text-align: center;
+}
+
+.logo-center {
+  display: inline-block;
 }
 
 .inputsize {
