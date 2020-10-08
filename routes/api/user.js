@@ -24,7 +24,7 @@ router.get("/data", (req, res) => {
 	res.json(req.session.passport.user);
 });
 
-// router.get("/:id", userController.findAll);
+router.get("/:id", userController.findAll);
 
 router.get('/:id', userController.findById)
 
