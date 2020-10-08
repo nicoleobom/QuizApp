@@ -27,7 +27,7 @@ app.use((req, res, next) => {
 
 app.use(require('./routes'));
 
-// app.use(express.static("client/build"));
+app.use(express.static("client/build"));
 
 app.listen(PORT, function() {
 	console.log(`Server is listening on http://localhost:${PORT}`);
